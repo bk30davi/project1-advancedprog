@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ShutTheBox
+comment0.text=\r\n\ Represents\ a\ ShutTheBox\ game\ object.\ Do\ we\ need\ instructions\ on\ how\r\n\ to\ play\ the\ game?\r\n\r\n\ @author\ Brianna\ Davis\r\n\ @version\ 1/29/2018\r\n
+comment1.params=
+comment1.target=ShutTheBox()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ShutTheBox\r\n
+comment2.params=
+comment2.target=int[]\ getBoard()
+comment3.params=
+comment3.target=int\ getGoalNum()
+comment4.params=
+comment4.target=void\ rollDice()
+comment5.params=num1\ num2\ num3\ num4
+comment5.target=boolean\ checkSum(int,\ int,\ int,\ int)
+comment6.params=nums
+comment6.target=void\ remove(java.util.ArrayList)
+comment7.params=
+comment7.target=boolean\ isDone()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
