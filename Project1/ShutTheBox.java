@@ -1,3 +1,5 @@
+package Project1;
+
 import java.util.Scanner;
 import java.util.Random;
 import java.util.ArrayList;
@@ -169,16 +171,22 @@ public class ShutTheBox
                 if (result <= 0){
                     return true;
                 }
-                else if (board[result - 1] != 0 && board[result - 1] != board[i] && result < board[i]){ // -1 && last 2
+                else if (board[result - 1] != 0 && board[result - 1] != board[i] && result < board[i]){
                     return false;
                 }
-                else if (i == 0){ //added in
+                //else if (result == 2 && board[1] == 0){
+                    //return true;
+                //}
+                else if (i == 0){
                     return true;
                 }
                 else{
                     isDone = recIsDone(result,result-1);
                 }
             }
+            //if (isDone == false){
+                //return false;
+            //}
         }
 
         return isDone;
