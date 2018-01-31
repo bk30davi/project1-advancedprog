@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 /**
  * Simulates the game Shut the Box with only one player.
  *
@@ -8,11 +9,6 @@ import java.util.Scanner;
 public class Driver
 {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Instructions & Title?");
-        while (true){ //while the game has not ended
-            System.out.println("Which numbers would you like to use?");
-            //could remove multiple numbers
-        }
+        ShutTheBox box = new ShutTheBox();
     }
 }
